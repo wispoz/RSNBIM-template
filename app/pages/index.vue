@@ -17,7 +17,7 @@
             </div>
             <div class="flex items-center mt-8 md:mt-6 max-md:flex-col max-md:gap-1 max-md:pb-6">
                 <div class="flex items-center justify-between py-2.5 md:py-4 px-4 md:px-5 w-full md:w-[244px] max-md:rounded-full md:rounded-t-[20px] max-md:bg-[#136BFB] max-md:text-white md:bg-[#F7F7F7] md:border border-[#F7F7F7]">
-                    <div class="flex items-center gap-3.5 max-md:w-[187px] max-md:justify-between">
+                    <div class="flex items-center gap-3.5 max-md:w-[180px] max-md:justify-between">
                         <span class="text-xl font-semibold leading-[100%] max-md:order-last">2</span>
                         <span class="text-base font-semibold leading-[100%]">Все сервера</span>
                     </div>
@@ -27,14 +27,14 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-between py-2.5 md:py-4 px-4 md:px-5 w-full md:w-[244px] max-md:rounded-full md:rounded-t-[20px] max-md:bg-[#F7F7F7] md:border border-[#EFEFEF]">
-                    <div class="flex items-center gap-3.5 max-md:w-[187px] max-md:justify-between">
+                    <div class="flex items-center gap-3.5 max-md:w-[180px] max-md:justify-between">
                         <span class="text-xl font-semibold leading-[100%] max-md:order-last">1</span>
                         <span class="text-base font-semibold leading-[100%]">Revit Server</span>
                     </div>
                     <img src="/images/index/server_s.png" alt="" class="w-6">
                 </div>
                 <div class="flex items-center justify-between py-2.5 md:py-4 px-4 md:px-5 w-full md:w-[244px] max-md:rounded-full md:rounded-t-[20px] max-md:bg-[#F7F7F7] md:border border-[#EFEFEF]">
-                    <div class="flex items-center gap-3.5 max-md:w-[187px] max-md:justify-between">
+                    <div class="flex items-center gap-3.5 max-md:w-[180px] max-md:justify-between">
                         <span class="text-xl font-semibold leading-[100%] max-md:order-last">1</span>
                         <span class="text-base font-semibold leading-[100%]">Revit Accelerator</span>
                     </div>
