@@ -5,8 +5,7 @@
                 <a href="/">
                     <img src="/images/header/logo.png" alt="" class="w-[132px] md:w-[157px]">
                 </a>
-                <div
-                    class="flex items-center md:gap-6 max-md:justify-between max-md:absolute max-md:w-full max-md:top-full max-md:left-0">
+                <div class="flex items-center md:gap-6 max-md:justify-between max-md:absolute max-md:w-full max-md:left-0 max-md:px-5 transition-all duration-500 max-md:top-full" :class="isMenuShow ? '' : 'max-md:-translate-x-full'">
                     <a href="#"
                         class="bg-[#EFEFEF] rounded-full py-[7px] px-4 text-sm font-medium leading-[100%]">Сервера</a>
                     <a href="#"
@@ -36,7 +35,7 @@
                         <a href="#">Выйти</a>
                     </div>
                 </div>
-                <button @click="isMenuShow = !isMenuShow" class="ml-6 md:hidden flex flex-col justify-center items-center relative transition-all duration-300 ease-in-out w-7 h-5">
+                <button @click="isMenuShow = !isMenuShow" class="ml-6 md:hidden flex flex-col justify-center items-center relative transition-all duration-300 ease-in-out w-7 h-5 cursour-pointer">
                     <span
                         class="absolute h-0.5 bg-[#ADADAD] rounded-[1px] transition-all duration-300 ease-in-out origin-center"
                         :class="isMenuShow ? 'w-[17px] rotate-45 translate-y-0' : 'w-7 -translate-y-1.5'"></span>
