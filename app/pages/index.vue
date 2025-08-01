@@ -74,7 +74,7 @@
                     <p>Москва</p>
                 </div>
                 <div class="flex max-md:flex-col max-md:gap-8 md:items-center md:justify-between mt-6 md:mt-7">
-                    <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">www.website.ru</a>
+                    <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">saеvyсa9g0hq.rsnbim.ru</a>
                     <p class="font-semibold leading-[100%] text-2xl max-md:w-20">21 800 <span class="text-base">₽/мес</span></p>
                 </div>
                 <img src="/images/index/server_s.png" alt="" class="absolute right-4 md:right-8 bottom-3 md:bottom-[51px]">
@@ -101,7 +101,7 @@
                     <p>Москва</p>
                 </div>
                 <div class="flex max-md:flex-col max-md:gap-8 md:items-center md:justify-between mt-6 md:mt-7">
-                    <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">www.website.ru</a>
+                    <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">saеvyсa9g0hq.rsnbim.ru</a>
                     <p class="font-semibold leading-[100%] text-2xl max-md:w-20">21 800 <span class="text-base">₽/мес</span></p>
                 </div>
                 <img src="/images/index/server_a.png" alt="" class="absolute right-4 md:right-8 bottom-3 md:bottom-[51px] opacity-50">
