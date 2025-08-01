@@ -1,10 +1,12 @@
+@import 'fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base {    
     #__nuxt{
-        @apply flex flex-col min-h-screen bg-[#F7F7F7]
+        @apply flex flex-col min-h-screen bg-[#F7F7F7] font-montserrat
     }
         
     :root{

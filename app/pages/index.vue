@@ -5,12 +5,12 @@
                 <p class="text-[32px] leading-[100%] font-medium">Здравствуйте, Евгений!</p>
                 <img src="/images/index/hand.png" alt="">
             </div>
-            <div class="flex md:items-center md:justify-between max-md:flex-col max-md:gap-4">
+            <div class="flex md:items-center md:justify-between max-md:flex-col max-md:gap-4 max-md:mt-4">
                 <p class="text-base leading-[100%] text-[#ADADAD]">Давайте посмотрим ваши данные по серверам</p>
-                <label class="flex items-center gap-3 py-2 px-3.5 cursor-pointer group bg-[#F7F7F7] rounded-full w-fit">
+                <label class="flex items-center gap-3 py-2 px-3.5 cursor-pointer group bg-[#F7F7F7] rounded-full w-fit max-md:hidden">
                     <input type="checkbox" class="sr-only">
                     <span class="w-[18px] h-[18px] rounded-[3px] bg-[#EFEFEF] border border-[#E5E5E5] flex items-center justify-center transition-all duration-500 [.group:has(input:checked)_&]:bg-[#136BFB] [.group:has(input:checked)_&]:border-[#136BFB]">
-                        <img src="/images/index/check.png" alt="" class="transition-all duration-500 opacity-0 group-hover:opacity-100 [.group:has(input:checked)_&]:opacity-100">
+                        <img src="/images/index/check.png" alt="" class="transition-all duration-500 opacity-0 [.group:has(input:checked)_&]:opacity-100">
                     </span>
                     <span class="text-xs leading-[100%]">Показать только активные</span>
                 </label>
@@ -43,7 +43,14 @@
             </div>
         </div>
     </section>
-    <section class="pt-8 grid-container">
+    <section class="pt-6 md:pt-8 grid-container">
+        <label class="flex items-center gap-3 cursor-pointer group rounded-full w-fit md:hidden pb-3.5">
+            <input type="checkbox" class="sr-only">
+            <span class="w-[18px] h-[18px] rounded-[3px] bg-[#EFEFEF] border border-[#E5E5E5] flex items-center justify-center transition-all duration-500 [.group:has(input:checked)_&]:bg-[#136BFB] [.group:has(input:checked)_&]:border-[#136BFB]">
+                <img src="/images/index/check.png" alt="" class="transition-all duration-500 opacity-0 [.group:has(input:checked)_&]:opacity-100">
+            </span>
+            <span class="text-xs leading-[100%]">Показать только активные</span>
+        </label>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-x-5">
             <div class="rounded-[20px] pt-6 md:pt-4 pb-3 md:pb-5 px-4 md:px-6 bg-white relative">
                 <div class="flex flex-col gap-1">
@@ -68,7 +75,7 @@
                 </div>
                 <div class="flex max-md:flex-col max-md:gap-8 md:items-center md:justify-between mt-6 md:mt-7">
                     <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">www.website.ru</a>
-                    <p class="font-semibold leading-[100%] text-2xl max-md:w-24">21 800 <span class="text-base">₽/мес</span></p>
+                    <p class="font-semibold leading-[100%] text-2xl max-md:w-20">21 800 <span class="text-base">₽/мес</span></p>
                 </div>
                 <img src="/images/index/server_s.png" alt="" class="absolute right-4 md:right-8 bottom-3 md:bottom-[51px]">
             </div>
@@ -95,14 +102,14 @@
                 </div>
                 <div class="flex max-md:flex-col max-md:gap-8 md:items-center md:justify-between mt-6 md:mt-7">
                     <a href="#" class="text-[#136BFB] text-[13px] font-medium leading-[100%]">www.website.ru</a>
-                    <p class="font-semibold leading-[100%] text-2xl max-md:w-24">21 800 <span class="text-base">₽/мес</span></p>
+                    <p class="font-semibold leading-[100%] text-2xl max-md:w-20">21 800 <span class="text-base">₽/мес</span></p>
                 </div>
                 <img src="/images/index/server_a.png" alt="" class="absolute right-4 md:right-8 bottom-3 md:bottom-[51px] opacity-50">
             </div>
             <div class="rounded-[20px] py-8 md:py-6 px-[18px] md:px-6 flex flex-col justify-between bg-[#136BFB] text-white gap-8 max-lg:order-first">
                 <div class="flex flex-col gap-1">
                     <p class="text-[13px] font-medium leading-[100%]">ВСЕГО 3 УСЛУГИ НА СУММУ</p>
-                    <p class="text-4xl font-semibold leading-[100%] max-md:max-w-[147px]">44 600 <span class="text-[22px]">₽/мес</span></p>
+                    <p class="text-4xl font-semibold leading-[100%] max-md:max-w-[135px]">44 600 <span class="text-[22px]">₽/мес</span></p>
                 </div>
                 <div class="flex flex-col gap-2.5">
                     <p class="text-sm font-medium leading-[100%]">Ожидает оплаты</p>
