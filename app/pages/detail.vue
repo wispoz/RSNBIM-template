@@ -32,7 +32,7 @@
                         <img src="/images/detail/question.png" alt="" class="w-8 lg:w-10">
                         <p class="max-sm:hidden text-sm leading-[100%]">Помощь</p>
                     </div>
-                    <button class="py-2 w-[173px] text-center bg-white text-[#136BFB] rounded-[16px] text-sm font-semibold leading-[17px]">Продлить сервер</button>
+                    <button class="py-2 w-[173px] text-center bg-white text-[#136BFB] rounded-[16px] text-sm font-semibold leading-[17px]">Как подключиться</button>
                 </div>
             </div>
         </div>
