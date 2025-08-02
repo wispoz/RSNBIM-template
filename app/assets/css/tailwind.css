@@ -5,12 +5,8 @@
 @tailwind utilities;
 
 @layer base {    
-    #__nuxt {
-        @apply font-montserrat
-    }
-
-    #__nuxt{
-        @apply flex flex-col min-h-screen bg-[#F7F7F7]
+   body{
+        @apply flex flex-col min-h-screen bg-[#F7F7F7] font-montserrat
     }
         
     :root{
