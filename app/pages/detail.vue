@@ -6,7 +6,7 @@
                     <img src="/images/detail/arrow.png" alt="">
                     <p class="text-sm font-medium leading-[100%] text-[#ADADAD]">Все сервера</p>
                 </div>
-                <div class="flex flex-col gap-4 text-white pt-1.5 md:pt-2.5 pb-5 px-4 md:px-5 rounded-[20px] bg-[#136BFB] relative md:order-3 lg:order-2">
+                <div class="flex flex-col gap-6 md:gap-4 text-white pt-1.5 md:pt-2.5 pb-5 px-4 md:px-5 rounded-[20px] bg-[#136BFB] relative md:order-3 lg:order-2">
                     <div class="flex flex-col gap-2 md:gap-3">
                         <p class="text-[28px] md:text-[32px] font-semibold leading-[100%]">Dev_serv</p>
                         <p class="text-sm font-medium leading-[100%]">Revit Server 2022</p>
