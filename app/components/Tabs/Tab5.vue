@@ -61,7 +61,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
                                 <td class="py-3 px-2 font-semibold">Отработанное время</td>
                                 <td class="py-3 px-2">110</td>
                                 <td class="py-3 px-2">110</td>
@@ -71,7 +71,7 @@
                                 <td class="py-3 px-2">110</td>
                                 <td class="py-3 px-2">110</td>
                             </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
                                 <td class="py-3 px-2 font-semibold">Созданных элементов</td>
                                 <td class="py-3 px-2">45</td>
                                 <td class="py-3 px-2">45</td>
@@ -81,7 +81,7 @@
                                 <td class="py-3 px-2">45</td>
                                 <td class="py-3 px-2">45</td>
                             </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
                                 <td class="py-3 px-2 font-semibold">Измененных элементов</td>
                                 <td class="py-3 px-2">20</td>
                                 <td class="py-3 px-2">20</td>
@@ -91,7 +91,7 @@
                                 <td class="py-3 px-2">20</td>
                                 <td class="py-3 px-2">20</td>
                             </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
                                 <td class="py-3 px-2 font-semibold">Удаленных элементов</td>
                                 <td class="py-3 px-2">5</td>
                                 <td class="py-3 px-2">5</td>
