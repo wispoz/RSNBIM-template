@@ -54,12 +54,12 @@
             </span>
             <span class="text-xs leading-[100%]">Показать только активные</span>
         </label>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-x-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-x-5">
             <div class="rounded-[20px] pt-6 md:pt-4 pb-3 md:pb-5 px-4 md:px-6 bg-white relative">
                 <div class="flex flex-col gap-2.5">
                     <div class="flex md:items-center md:justify-between gap-1.5 md:gap-4 max-md:flex-col">
-                        <p class="text-2xl font-semibold leading-[100%]">Dev_serv</p>
-                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F0FEED] text-[#26C975] max-md:order-first w-fit">
+                        <p class="truncate text-2xl font-semibold leading-[100%]">Dev_serv</p>
+                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F0FEED] text-[#26C975] max-md:order-first w-fit shrink-0">
                             <div class="w-1.5 h-1.5 rounded-full bg-[#26C975]"></div>
                             <p class="text-[13px] font-medium leading-[100%]">Активен</p>
                         </div>
@@ -85,8 +85,8 @@
             <div class="rounded-[20px] pt-6 md:pt-4 pb-3 md:pb-5 px-4 md:px-6 bg-white relative">
                 <div class="flex flex-col gap-2.5">
                     <div class="flex md:items-center md:justify-between gap-1.5 md:gap-4 max-md:flex-col">
-                        <p class="text-2xl font-semibold leading-[100%]">Dev_serv2223...</p>
-                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#FDF1F2] text-[#FF6170] max-md:order-first w-fit">
+                        <p class="truncate text-2xl font-semibold leading-[100%]">Dev_serv2223gdfgdfgdfdgfdgfgdf</p>
+                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#FDF1F2] text-[#FF6170] max-md:order-first w-fit shrink-0">
                             <div class="w-1.5 h-1.5 rounded-full bg-[#FF6170]"></div>
                             <p class="text-[13px] font-medium leading-[100%]">Ожидает оплаты</p>
                         </div>
