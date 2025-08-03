@@ -6,7 +6,7 @@
 
 @layer base {    
    body{
-        @apply flex flex-col min-h-screen bg-[#F7F7F7] font-montserrat
+        @apply flex flex-col min-h-screen bg-[#F7F7F7] font-montserrat text-[#0F0F0F]
     }
         
     :root{
