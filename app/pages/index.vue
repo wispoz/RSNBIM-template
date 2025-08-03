@@ -46,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-6 md:pt-8 grid-container">
+    <section class="pt-6 md:pt-8 pb-11 grid-container">
         <label class="flex items-center gap-3 cursor-pointer group rounded-full w-fit md:hidden pb-3.5">
             <input type="checkbox" class="sr-only">
             <span class="w-[18px] h-[18px] rounded-[3px] bg-[#EFEFEF] border border-[#E5E5E5] flex items-center justify-center transition-all duration-500 [.group:has(input:checked)_&]:bg-[#136BFB] [.group:has(input:checked)_&]:border-[#136BFB]">
