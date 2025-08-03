@@ -15,7 +15,7 @@
                 </div>
                 <p class="text-xs font-normal text-[#ADADAD]">из 1</p>
             </div>
-            <button class="flex items-center justify-center w-[152px] gap-1.5 md:gap-4 py-2 rounded-2xl bg-white text-[#136BFB]">
+            <button class="flex items-center justify-center w-[152px] gap-1.5 md:gap-4 py-2 rounded-full bg-white text-[#136BFB]">
                 <img src="/images/detail/download.png" alt="">
                 <span>Скачать .xlsx</span>
             </button>

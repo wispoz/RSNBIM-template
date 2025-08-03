@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col gap-6 md:gap-4">
         <div class="flex items-center justify-between gap-0.5 text-sm leading-[100%]">
-            <button class="flex items-center justify-center w-[107px] md:w-[137px] gap-1.5 md:gap-4 py-2 rounded-2xl bg-[#136BFB] text-white font-semibold">
+            <button class="flex items-center justify-center w-[107px] md:w-[137px] gap-1.5 md:gap-4 py-2 rounded-full bg-[#136BFB] text-white font-semibold">
                 <img src="/images/detail/plus.png" alt="">
                 <span>Добавить</span>
             </button>
