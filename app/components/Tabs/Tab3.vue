@@ -14,13 +14,13 @@
             <table class="w-full text-sm leading-[100%]">
                 <thead>
                     <tr class="border-b-[0.5px] border-[#ADADAD] text-left text-[#ADADAD]">
-                        <th class="py-4 px-2">Название</th> 
-                        <th class="py-4 px-2">E-mail</th> 
-                        <th class="py-4 px-2">Дата</th> 
-                        <th class="py-4 px-2">Байты</th> 
-                        <th class="py-4 px-2">Последний коннект</th> 
-                        <th class="py-4 px-2">Tunnel file</th> 
-                        <th class="py-4 px-2 w-20"></th> 
+                        <th class="py-4 px-2 font-normal">Название</th> 
+                        <th class="py-4 px-2 font-normal">E-mail</th> 
+                        <th class="py-4 px-2 font-normal">Дата</th> 
+                        <th class="py-4 px-2 font-normal">Байты</th> 
+                        <th class="py-4 px-2 font-normal">Последний коннект</th> 
+                        <th class="py-4 px-2 font-normal">Tunnel file</th> 
+                        <th class="py-4 px-2 font-normal w-20"></th> 
                     </tr>
                 </thead>
                 <tbody>

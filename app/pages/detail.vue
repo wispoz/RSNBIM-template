@@ -48,6 +48,7 @@
         <TabsTab1 v-show="activeTab === 'tab1'"></TabsTab1>
         <TabsTab2 v-show="activeTab === 'tab2'"></TabsTab2>
         <TabsTab3 v-show="activeTab === 'tab3'"></TabsTab3>
+        <TabsTab4 v-show="activeTab === 'tab4'"></TabsTab4>
     </section>
 </template>
 
