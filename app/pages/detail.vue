@@ -45,8 +45,8 @@
         </div>
     </section>
     <section class="pt-6 md:pt-8 pb-11 grid-container">
-        <TabsTabs1 v-show="activeTab === 'tab1'"></TabsTabs1>
-        <TabsTabs3 v-show="activeTab === 'tab3'"></TabsTabs3>
+        <TabsTab1 v-show="activeTab === 'tab1'"></TabsTab1>
+        <TabsTab3 v-show="activeTab === 'tab3'"></TabsTab3>
     </section>
 </template>
 
