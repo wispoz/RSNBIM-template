@@ -8,7 +8,7 @@
             <div v-show="activeTab === 'tab1'" class="flex flex-col gap-6 md:gap-8 w-full">
                 <div class="flex flex-col gap-4">
                     <div class="flex items-center gap-3.5 py-1.5 px-5 rounded-full bg-[#F7F7F7] w-fit">
-                        <label>
+                        <label class="cursor-pointer">
                             <input type="date" class="sr-only">
                             <img src="/images/detail/date.png" alt="">
                         </label>
