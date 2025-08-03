@@ -45,105 +45,164 @@
                         <p class="text-sm md:text-lg font-semibold leading-[100%]">Удаленных элементов</p>
                     </div>
                 </div>
-                <div class="flex flex-col gap-3.5 md:hidden">
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+
+                <div class="max-md:hidden text-sm leading-[100%]">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                <th class="py-3 px-2 font-normal text-left"></th>
+                                <th class="py-3 px-2 font-normal text-left">10.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">11.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">12.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">13.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">14.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">15.07.25</th>
+                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                <td class="py-3 px-2 font-semibold">Отработанное время</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                                <td class="py-3 px-2">110</td>
+                            </tr>
+                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                <td class="py-3 px-2 font-semibold">Созданных элементов</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                                <td class="py-3 px-2">45</td>
+                            </tr>
+                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                <td class="py-3 px-2 font-semibold">Измененных элементов</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                                <td class="py-3 px-2">20</td>
+                            </tr>
+                            <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                <td class="py-3 px-2 font-semibold">Удаленных элементов</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                                <td class="py-3 px-2">5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="md:hidden space-y-3">
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">10.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">11.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
+                    <div class="flex flex-col gap-1.5">
                         <p class="text-sm text-[#ADADAD]">12.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">13.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">14.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">15.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
                     <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
-                    <div class="flex flex-col gap-1 5">
-                        <p class="text-sm text-[#ADADAD]">12.07.25</p>
+                    <div class="flex flex-col gap-1.5">
+                        <p class="text-sm text-[#ADADAD]">16.07.25</p>
                         <div class="grid grid-cols-[74%_26%] gap-x-4 gap-y-1.5 text-xs leading-[100%]">
-                            <p class="odd:font-semibold">Отработанное время</p>
-                            <p class="odd:font-semibold">110</p>
-                            <p class="odd:font-semibold">Созданных элементов</p>
-                            <p class="odd:font-semibold">45</p>
-                            <p class="odd:font-semibold">Измененных элементов</p>
-                            <p class="odd:font-semibold">20</p>
-                            <p class="odd:font-semibold">Удаленных элементов</p>
-                            <p class="odd:font-semibold">5</p>
+                            <p class="font-semibold">Отработанное время</p>
+                            <p class="font-semibold">110</p>
+                            <p class="font-semibold">Созданных элементов</p>
+                            <p class="font-semibold">45</p>
+                            <p class="font-semibold">Измененных элементов</p>
+                            <p class="font-semibold">20</p>
+                            <p class="font-semibold">Удаленных элементов</p>
+                            <p class="font-semibold">5</p>
                         </div>
                     </div>
-                    <div class="w-full h-[0.5px] bg-[#ADADAD] last:hidden"></div>
                 </div>
             </div>
             <div v-show="activeTab === 'tab2'" class="flex flex-col gap-6 md:gap-5">
