@@ -63,8 +63,9 @@
                 </tbody>
             </table>
         </div>
+
         <div class="flex flex-col gap-4 md:hidden text-sm leading-[100%]">
-            <div class="flex flex-col gap-2.5">
+            <div class="flex flex-col gap-2.5 group">
                 <div class="flex items-center justify-between">
                     <p class="font-semibold">Название текст</p>
                     <div class="flex items-center gap-3">
@@ -82,7 +83,27 @@
                 </div>
                 <p class="text-[#ADADAD]">Последний коннект 12.06.2025</p>
                 <p class="text-[#ADADAD]">Tunnel file</p>
-                <div class="w-full h-[0.5px] bg-[#ADADAD]"></div>
+                <div class="w-full h-[0.5px] bg-[#ADADAD] group-last:hidden"></div>
+            </div>
+            <div class="flex flex-col gap-2.5 group">
+                <div class="flex items-center justify-between">
+                    <p class="font-semibold">Название текст</p>
+                    <div class="flex items-center gap-3">
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/edit.png" alt="">
+                        </button>
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/delete.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between">
+                    <p>E-mail@mail.ru</p>
+                    <p class="text-[#ADADAD]">12.06.2025</p>
+                </div>
+                <p class="text-[#ADADAD]">Последний коннект 12.06.2025</p>
+                <p class="text-[#ADADAD]">Tunnel file</p>
+                <div class="w-full h-[0.5px] bg-[#ADADAD] group-last:hidden"></div>
             </div>
         </div>
     </div>
