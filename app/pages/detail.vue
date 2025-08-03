@@ -37,6 +37,111 @@
             </div>
         </div>
     </section>
+    <section class="pt-6 md:pt-8 grid-container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 md:gap-y-4 md:gap-x-5">
+            <div class="bg-white rounded-[15px] pt-3 pb-2.5 md:pt-2 md:pb-5 px-4 md:px-5 flex flex-col gap-3 md:gap-5">
+                <div class="flex items-center gap-2 md:gap-4">
+                    <img src="/images/detail/icon1.svg" alt="">
+                    <p class="text-base font-semibold leading-[100%]">О сервере</p>
+                </div>
+                <div class="grid grid-cols-2 text-xs leading-[100%] gap-x-1.5 md:gap-x-[59px] gap-y-3.5">
+                    <p class="odd:text-[#ADADAD]">Название сервера</p>
+                    <p class="odd:text-[#ADADAD]">Dev_serv</p>
+                    <p class="odd:text-[#ADADAD]">Роль</p>
+                    <p class="odd:text-[#ADADAD]">Revit Server</p>
+                    <p class="odd:text-[#ADADAD]">Версия сервера</p>
+                    <p class="odd:text-[#ADADAD]">Revit Server 2022</p>
+                    <p class="odd:text-[#ADADAD]">Тариф</p>
+                    <p class="odd:text-[#ADADAD]">Pro-3</p>
+                    <p class="odd:text-[#ADADAD]">Дата создания</p>
+                    <p class="odd:text-[#ADADAD]">14.03.2025</p>
+                    <p class="odd:text-[#ADADAD]">Активен до</p>
+                    <p class="odd:text-[#ADADAD]">15.03.2026</p>
+                    <p class="odd:text-[#ADADAD]">Локация</p>
+                    <p class="odd:text-[#ADADAD]">Москва</p>
+                    <p class="odd:text-[#ADADAD]">Домен</p>
+                    <p class="odd:text-[#ADADAD]"><a href="www.website.ru" target="_blank" class="text-[#136BFB]">www.website.ru</a></p>
+                </div>
+            </div>
+            <div class="bg-white rounded-[15px] pt-3 pb-2.5 md:pt-2 md:pb-5 px-4 md:px-5 flex flex-col gap-3 md:gap-5">
+                <div class="flex justify-between gap-3.5">
+                    <div class="flex gap-2 md:gap-4">
+                        <img src="/images/detail/icon2.svg" alt="" class="h-fit">
+                        <div class="flex flex-col gap-1.5 mt-1.5">
+                            <p class="text-base font-semibold leading-[100%]">Административная панель</p>
+                            <p class="text-xs leading-[100%]">Revit Server</p>
+                        </div>
+                    </div>
+                    <button class="cursor-pointer max-md:mt-auto">
+                        <img src="/images/detail/eye.png" alt="" class="h-fit shrink-0">
+                    </button>
+                </div>
+                <div class="grid grid-cols-2 gap-x-6 gap-y-4 md:gap-x-14 w-full text-xs leading-[100%]">
+                    <p class="odd:text-[#ADADAD]">Revit Server <br> Administrator</p>
+                    <button class="py-1 font-semibold text-[#136BFB] text-center border border-[#136BFB] w-[83px] rounded-full">Открыть</button>
+                    <p class="odd:text-[#ADADAD]">Логин</p>
+                    <div class="flex items-end justify-between grow">
+                        <p>Login2333</p>
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/copy.png" alt="">
+                        </button>
+                    </div>
+                    <p class="odd:text-[#ADADAD]">Пароль</p>
+                    <div class="flex items-end justify-between grow">
+                        <p>q32eqq4qqq4q</p>
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/copy.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-[15px] pt-3 pb-2.5 md:pt-2 md:pb-5 px-4 md:px-5 flex flex-col gap-3 md:gap-5">
+                <div class="flex justify-between gap-3.5">
+                    <div class="flex gap-2 md:gap-4">
+                        <img src="/images/detail/icon3.svg" alt="" class="h-fit">
+                        <div class="flex flex-col gap-1.5 mt-1.5">
+                            <p class="text-base font-semibold leading-[100%]">Общие файлы на сервере</p>
+                        </div>
+                    </div>
+                    <button class="cursor-pointer max-md:mt-auto">
+                        <img src="/images/detail/eye.png" alt="" class="h-fit shrink-0">
+                    </button>
+                </div>
+                <div class="grid grid-cols-2 gap-x-6 gap-y-4 md:gap-x-12 w-full text-xs leading-[100%]">
+                    <p class="odd:text-[#ADADAD] max-md:col-span-full">Ссылка для проводника Windows</p>
+                    <p class="odd:text-[#ADADAD] max-md:col-span-full">\\ it18kg9ewit4.rsnbim.ru \Share</p>
+                    <p class="odd:text-[#ADADAD]">Логин</p>
+                    <div class="flex items-end justify-between grow">
+                        <div class="flex items-center gap-2">
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                        </div>
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/copy.png" alt="">
+                        </button>
+                    </div>
+                    <p class="odd:text-[#ADADAD]">Пароль</p>
+                    <div class="flex items-end justify-between grow">
+                        <div class="flex items-center gap-2">
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                            <div class="w-1 h-1 rounded-full bg-black"></div>
+                        </div>
+                        <button class="cursor-pointer">
+                            <img src="/images/detail/copy.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>t
 </template>
 
 <script setup>
