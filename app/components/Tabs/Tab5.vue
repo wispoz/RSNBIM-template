@@ -46,6 +46,13 @@
                     </div>
                 </div>
 
+                <!-- Chart -->
+                <div>
+                    <div class="relative h-[430px] md:h-[300px]">
+                        <canvas ref="chartRef"></canvas>
+                    </div>
+                </div>
+
                 <div class="max-md:hidden text-sm leading-[100%]">
                     <table class="w-full">
                         <thead>
@@ -279,6 +286,200 @@
 </template>
 
 <script setup>
+import { Chart, registerables } from 'chart.js'
+
 /* код табов */
 const activeTab = ref('tab1')
+
+/* регистрирация всех компонентов Chart.js */
+Chart.register(...registerables)
+
+/* ссылки на canvas элементы */
+const chartRef = ref(null)
+
+/* данные для диаграммы */
+const chartData = {
+    labels: ['10.07.25', '11.07.25', '12.07.25', '13.07.25', '14.07.25', '15.07.25', '16.07.25'],
+    datasets: [
+        {
+            label: 'Отработанное время',
+            data: [102, 87, 42, 42, 47, 77, 47],
+            backgroundColor: '#136BFB',
+            borderColor: '#136BFB',
+            borderWidth: 0,
+            borderRadius: 6,
+            borderSkipped: false,
+        },
+        {
+            label: 'Созданных элементов',
+            data: [47, 13, 27, 38, 27, 27, 27],
+            backgroundColor: '#26C975',
+            borderColor: '#26C975',
+            borderWidth: 0,
+            borderRadius: 6,
+            borderSkipped: false,
+        },
+        {
+            label: 'Измененных элементов',
+            data: [33, 13, 22, 22, 43, 13, 13],
+            backgroundColor: '#EFB000',
+            borderColor: '#EFB000',
+            borderWidth: 0,
+            borderRadius: 6,
+            borderSkipped: false,
+        },
+        {
+            label: 'Удаленных элементов',
+            data: [32, 13, 13, 33, 52, 13, 13],
+            backgroundColor: '#FF6170',
+            borderColor: '#FF6170',
+            borderWidth: 0,
+            borderRadius: 6,
+            borderSkipped: false,
+        }
+    ]
+}
+
+/* функция для получения настроек в зависимости от размера экрана */
+const getChartOptions = (isMobile = false) => {
+    const baseOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+        scales: {
+            x: {
+                grid: {
+                    color: '#E2E2E2',
+                    drawBorder: false
+                },
+                ticks: {
+                    color: '#ADADAD',
+                    font: {
+                        size: 12
+                    }
+                }
+            },
+            y: {
+                beginAtZero: true,
+                max: 120,
+                grid: {
+                    color: '#E2E2E2',
+                    drawBorder: false
+                },
+                ticks: {
+                    stepSize: 20,
+                    color: '#ADADAD',
+                    font: {
+                        size: 12
+                    }
+                }
+            }
+        }
+    }
+
+    if (isMobile) {
+        // горизонтальная диаграмма для мобильных
+        return {
+            ...baseOptions,
+            indexAxis: 'y',
+            scales: {
+                x: {
+                    ...baseOptions.scales.x,
+                    title: {
+                        display: true,
+                        text: 'Часы',
+                        color: '#ADADAD',
+                        font: {
+                            size: 12
+                        }
+                    }
+                },
+                y: {
+                    ...baseOptions.scales.y,
+                    title: {
+                        display: false
+                    }
+                }
+            }
+        }
+    } else {
+        // вертикальная диаграмма для десктопа
+        return {
+            ...baseOptions,
+            scales: {
+                ...baseOptions.scales,
+                x: {
+                    ...baseOptions.scales.x,
+                    title: {
+                        display: false
+                    }
+                },
+                y: {
+                    ...baseOptions.scales.y,
+                    title: {
+                        display: true,
+                        text: 'Часы',
+                        color: '#ADADAD',
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+let chart = null
+
+/* функция для обновления диаграммы */
+const updateChart = () => {
+    if (chart) {
+        const isMobile = window.innerWidth < 960 // ниже планшета
+        const newOptions = getChartOptions(isMobile)
+        
+        chart.options = newOptions
+        chart.update('none') // отмена анимации для плавности
+    }
+}
+
+/* обработчик изменения размера окна */
+const handleResize = () => {
+    updateChart()
+}
+
+onMounted(async () => {
+    await nextTick()
+    
+    // создание диаграммы
+    if (chartRef.value) {
+        const ctx = chartRef.value.getContext('2d')
+        const isMobile = window.innerWidth < 960
+        const options = getChartOptions(isMobile)
+        
+        chart = new Chart(ctx, {
+            type: 'bar',
+            data: chartData,
+            options: options
+        })
+        
+        // добавление обработчика изменения окна
+        window.addEventListener('resize', handleResize)
+    }
+})
+
+onUnmounted(() => {
+    // удаление обработчика при размонтировании
+    window.removeEventListener('resize', handleResize)
+    
+    // удаление диаграммы
+    if (chart) {
+        chart.destroy()
+    }
+})
+
 </script>
