@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 @layer base {    
-   body{
+    html { 
+        @apply [scrollbar-gutter:stable]
+    }
+
+    body{
         @apply flex flex-col min-h-screen bg-[#F7F7F7] font-montserrat text-[#0F0F0F]
     }
         
