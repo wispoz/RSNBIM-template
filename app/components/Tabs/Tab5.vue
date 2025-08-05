@@ -19,28 +19,28 @@
                     <div class="flex flex-col gap-1 rounded-[10px] px-2 pt-1.5 pb-3.5 md:px-5 md:pt-2 md:pb-3 text-white bg-[#136BFB]">
                         <div class="flex items-center justify-between">
                             <p class="text-[20px] md:text-[30px] font-semibold leading-[100%]">100</p>
-                            <img src="/images/detail/clock.png" alt="">
+                            <img src="/images/detail/clock_new.png" alt="">
                         </div>
                         <p class="text-sm md:text-lg font-semibold leading-[100%]">Отработанное время</p>
                     </div>
                     <div class="flex flex-col gap-1 rounded-[10px] px-2 pt-1.5 pb-3.5 md:px-5 md:pt-2 md:pb-3 text-white bg-[#26C975]">
                         <div class="flex items-center justify-between">
                             <p class="text-[20px] md:text-[30px] font-semibold leading-[100%]">30</p>
-                            <img src="/images/detail/add.png" alt="">
+                            <img src="/images/detail/add_new.png" alt="">
                         </div>
                         <p class="text-sm md:text-lg font-semibold leading-[100%]">Созданных элементов</p>
                     </div>
                     <div class="flex flex-col gap-1 rounded-[10px] px-2 pt-1.5 pb-3.5 md:px-5 md:pt-2 md:pb-3 text-white bg-[#EFB000]">
                         <div class="flex items-center justify-between">
                             <p class="text-[20px] md:text-[30px] font-semibold leading-[100%]">30</p>
-                            <img src="/images/detail/edit2.png" alt="">
+                            <img src="/images/detail/edit_new.png" alt="">
                         </div>
                         <p class="text-sm md:text-lg font-semibold leading-[100%]">Измененных элементов</p>
                     </div>
                     <div class="flex flex-col gap-1 rounded-[10px] px-2 pt-1.5 pb-3.5 md:px-5 md:pt-2 md:pb-3 text-white bg-[#FF6170]">
                         <div class="flex items-center justify-between">
                             <p class="text-[20px] md:text-[30px] font-semibold leading-[100%]">10</p>
-                            <img src="/images/detail/delete2.png" alt="">
+                            <img src="/images/detail/del_new.png" alt="">
                         </div>
                         <p class="text-sm md:text-lg font-semibold leading-[100%]">Удаленных элементов</p>
                     </div>
