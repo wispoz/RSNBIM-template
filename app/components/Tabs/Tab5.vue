@@ -2,7 +2,7 @@
     <div class="flex flex-col">
         <div class="flex items-center max-md:flex-wrap gap-2.5 md:gap-1 max-md:text-[#ADADAD] text-sm font-medium leading-[100%]">
             <button @click="activeTab = 'tab1'" :class="{'!bg-[#136BFB] max-md:!text-white md:!bg-white md:!border-white' : activeTab === 'tab1'}" class="cursor-pointer transition-all duration-500 text-center max-md:rounded-full md:rounded-t-[20px] py-1.5 md:pt-2.5 md:pb-4 w-[134px] md:w-[139px] bg-white md:bg-transparent md:border border-[#E2E2E2]">Отчет</button>
-            <button @click="activeTab = 'tab2'" :class="{'!bg-[#136BFB] max-md:!text-white md:!bg-white md:!border-white' : activeTab === 'tab2'}" class="cursor-pointer transition-all duration-500 text-center max-md:rounded-full md:rounded-t-[20px] py-1.5 md:pt-2.5 md:pb-4 w-[134px] md:w-[139px] bg-white md:bg-transparent md:border border-[#E2E2E2]">Пользователи</button>
+            <button @click="() => { activeTab = 'tab2'; scrollToTop(); }" :class="{'!bg-[#136BFB] max-md:!text-white md:!bg-white md:!border-white' : activeTab === 'tab2'}" class="cursor-pointer transition-all duration-500 text-center max-md:rounded-full md:rounded-t-[20px] py-1.5 md:pt-2.5 md:pb-4 w-[134px] md:w-[139px] bg-white md:bg-transparent md:border border-[#E2E2E2]">Пользователи</button>
         </div>
         <div class="rounded-[14px] md:rounded-tl-none bg-white max-md:mt-4 px-4 py-5 md:py-4 xl:px-6">
             <div v-show="activeTab === 'tab1'" class="flex flex-col gap-6 md:gap-8 w-full">
@@ -450,6 +450,14 @@ const updateChart = () => {
 /* обработчик изменения размера окна */
 const handleResize = () => {
     updateChart()
+}
+
+/* скролл до начала страницы */
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
 }
 
 onMounted(async () => {
