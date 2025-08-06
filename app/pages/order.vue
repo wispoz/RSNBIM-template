@@ -121,6 +121,17 @@
                 </div>
             </div>
         </div>
+        <div class="mt-5 md:mt-9 flex max-md:flex-col items-center md:items-end w-fit lg:ml-auto gap-9 md:gap-[90px]">
+            <div class="grid grid-cols-2 gap-x-6 gap-y-2 text-xs text-[#ADADAD] leading-[100%]">
+                <p>Тариф Start-2</p>
+                <p class="font-semibold">7 900 ₽ / мес</p>
+                <p>Бэкап 30 дней</p>
+                <p class="font-semibold">1 000 ₽ / мес</p>
+                <p class="text-base font-semibold text-[#0F0F0F]">ИТОГО</p>
+                <p class="text-base font-semibold text-[#0F0F0F]">8 900 ₽ / мес</p>
+            </div>
+            <button class="cursor-pointer w-[212px] h-[34px] flex items-center justify-center text-white bg-[#136BFB] text-sm font-semibold leading-[100%] rounded-full">Заказать</button>
+        </div>
     </section>
 </template>
 
