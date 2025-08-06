@@ -70,7 +70,7 @@
                 </div>
                 <div class="grid grid-cols-2 gap-x-6 gap-y-3.5 md:gap-x-12 w-full text-xs leading-[100%]">
                     <p class="odd:text-[#ADADAD] max-md:col-span-full">Ссылка для проводника Windows</p>
-                    <p class="odd:text-[#ADADAD] max-md:col-span-full">\\ it18kg9ewit4.rsnbim.ru \Share</p>
+                    <p class="odd:text-[#ADADAD] max-md:col-span-full break-words">\\it18kg9ewit4.rsnbim.ru\Share</p>
                     <p class="odd:text-[#ADADAD]">Логин</p>
                     <div class="flex items-end justify-between grow">
                         <div class="flex items-center gap-2">
