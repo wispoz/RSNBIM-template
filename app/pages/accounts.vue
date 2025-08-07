@@ -52,8 +52,11 @@
                 <td class="px-3 py-2.5">12.06.2025</td>
                 <td class="px-3 py-2.5 ">1 месяц</td>
                 <td class="px-3 py-2.5 flex items-center md:grow md:justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
+                    <button class="cursor-pointer relative group">
+                        <img src="/images/accounts/list.svg" alt="" class="w-8">
+                        <span class="absolute left-1/2 -translate-x-1/2 -top-8 px-2 py-1 rounded bg-[#0F0F0F] text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-500 whitespace-nowrap z-[1]">
+                            Скачать
+                        </span>
                     </button>
                 </td>
                 </tr>
@@ -70,14 +73,23 @@
                 <td class="px-3 py-2.5">12.06.2025</td>
                 <td class="px-3 py-2.5 ">1 месяц</td>
                 <td class="px-3 py-2.5 flex items-center gap-2 md:grow md:justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/payment.svg" alt="" class="w-8">
+                    <button class="cursor-pointer relative group">
+                        <img src="/images/accounts/payment.svg" alt="" class="w-8">
+                        <span class="absolute left-1/2 -translate-x-1/2 -top-8 px-2 py-1 rounded bg-[#0F0F0F] text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-500 whitespace-nowrap z-[1]">
+                            Оплатить
+                        </span>
                     </button>
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/close.svg" alt="" class="w-8">
+                    <button class="cursor-pointer relative group">
+                        <img src="/images/accounts/close.svg" alt="" class="w-8">
+                        <span class="absolute left-1/2 -translate-x-1/2 -top-8 px-2 py-1 rounded bg-[#0F0F0F] text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-500 whitespace-nowrap z-[1]">
+                            Отменить
+                        </span>
                     </button>
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
+                    <button class="cursor-pointer relative group">
+                        <img src="/images/accounts/list.svg" alt="" class="w-8">
+                        <span class="absolute left-1/2 -translate-x-1/2 -top-8 px-2 py-1 rounded bg-[#0F0F0F] text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-500 whitespace-nowrap z-[1]">
+                            Скачать
+                        </span>
                     </button>
                 </td>
                 </tr>
@@ -94,8 +106,11 @@
                 <td class="px-3 py-2.5">12.06.2025</td>
                 <td class="px-3 py-2.5 ">1 месяц</td>
                 <td class="px-3 py-2.5 flex items-center md:grow md:justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
+                    <button class="cursor-pointer relative group">
+                        <img src="/images/accounts/list.svg" alt="" class="w-8">
+                        <span class="absolute left-1/2 -translate-x-1/2 -top-8 px-2 py-1 rounded bg-[#0F0F0F] text-white text-xs opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-500 whitespace-nowrap z-[1]">
+                            Скачать
+                        </span>
                     </button>
                 </td>
                 </tr>
