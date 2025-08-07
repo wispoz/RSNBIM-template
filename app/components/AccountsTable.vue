@@ -19,31 +19,32 @@
             </button>
           </th>
           <th class="px-3 py-2.5 font-normal">Период оплаты</th>
+          <th class="px-3 py-2.5 min-w-20"></th>
         </tr>
       </thead>
       <tbody>
         <tr class="border-b-[0.25px] border-[#ADADAD]">
-          <td class="font-semibold pr-3 py-2.5 align-top">001</td>
-          <td class="px-3 py-2.5 align-top">witty-tie</td>
-          <td class="px-3 py-2.5 align-top">13 900</td>
-          <td class="px-3 py-2.5 align-top">
+          <td class="font-semibold pr-3 py-2.5">001</td>
+          <td class="px-3 py-2.5">witty-tie</td>
+          <td class="px-3 py-2.5">13 900</td>
+          <td class="px-3 py-2.5">
             <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F0FEED] text-[#26C975] max-md:order-first w-fit shrink-0">
                 <div class="w-1.5 h-1.5 rounded-full bg-[#26C975]"></div>
                 <p class="text-[13px] font-medium leading-[100%]">Оплачен</p>
             </div>
           </td>
-          <td class="px-3 py-2.5 align-top">12.06.2025</td>
-          <td class="px-3 py-2.5 flex gap-6 xl:gap-20">
-            <span class="shrink-0">1 месяц</span>
-            <div class="flex items-center gap-2 max-xl:items-end max-xl:flex-col">
-              <div class="flex items-center gap-2 max-xl:order-last">
-                <button class="flex items-center justify-center w-[101px] h-[31px] text-sm font-semibold text-white rounded-full bg-[#136BFB]">Оплатить</button>
-                <button class="flex items-center justify-center w-[101px] h-[31px] text-sm font-semibold text-white rounded-full bg-[#FF6170]">Отмена</button>
-              </div>
-              <button class="cursor-pointer">
-                <img src="/images/accounts/list.png" alt="" class="shrink-0">
-              </button>
-            </div>
+          <td class="px-3 py-2.5">12.06.2025</td>
+          <td class="px-3 py-2.5 ">1 месяц</td>
+          <td class="px-3 py-2.5 flex items-center gap-2 xl:grow xl:justify-end">
+            <button class="cursor-pointer">
+              <img src="/images/accounts/payment.svg" alt="" class="w-8">
+            </button>
+            <button class="cursor-pointer">
+              <img src="/images/accounts/close.svg" alt="" class="w-8">
+            </button>
+            <button class="cursor-pointer">
+              <img src="/images/accounts/list.svg" alt="" class="w-9">
+            </button>
           </td>
         </tr>
       </tbody>
