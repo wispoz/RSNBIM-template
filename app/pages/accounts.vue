@@ -117,86 +117,76 @@
             </tbody>
             </table>
             <div class="md:hidden flex flex-col gap-3.5 text-xs leading-[100%]">
-            <div class="flex flex-col gap-2.5">
-                <div class="flex items-center justify-between">
-                <div class="flex items-center gap-2.5">
-                    <p class="font-semibold">001</p>
-                    <p class="font-semibold text-base">witty-tie</p>
+                <div class="flex flex-col gap-2">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2.5">
+                            <p class="font-semibold">001</p>
+                            <p class="font-semibold text-base">witty-tie</p>
+                        </div>
+                        <p class="font-semibold text-base">13 900</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-[#ADADAD]">12.06.2025</p>
+                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F0FEED] text-[#26C975] w-fit shrink-0">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#26C975]"></div>
+                            <p class="text-[13px] font-medium leading-[100%]">Оплачен</p>
+                        </div>
+                    </div>
+                    <p class="text-[#ADADAD]">1 месяц</p>
+                    <div class="flex items-center gap-2.5 justify-end">
+                        <button class="cursor-pointer">
+                        <img src="/images/accounts/list.svg" alt="" class="w-9">
+                        </button>
+                    </div>
                 </div>
-                <p class="font-semibold text-base">13 900</p>
+                <div class="w-full h-[0.25px] bg-[#ADADAD] last:hidden"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2.5">
+                            <p class="font-semibold">001</p>
+                            <p class="font-semibold text-base">witty-tie</p>
+                        </div>
+                        <p class="font-semibold text-base">13 900</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-[#ADADAD]">12.06.2025</p>
+                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#FDF1F2] text-[#FF6170] w-fit shrink-0">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#FF6170]"></div>
+                            <p class="text-[13px] font-medium leading-[100%]">Ожидает оплаты</p>
+                        </div>
+                    </div>
+                    <p class="text-[#ADADAD]">1 месяц</p>
+                    <div class="flex items-center gap-2.5 justify-end">
+                        <button class="flex items-center justify-center w-[101px] h-[31px] text-sm font-semibold text-white rounded-full bg-[#136BFB]">Оплатить</button>
+                        <button class="flex items-center justify-center w-[101px] h-[31px] text-sm font-semibold text-white rounded-full bg-[#FF6170]">Отмена</button>
+                        <button class="cursor-pointer">
+                        <img src="/images/accounts/list.svg" alt="" class="w-9">
+                        </button>
+                    </div>
                 </div>
-                <div class="flex items-center justify-between">
-                <p class="text-[#ADADAD]">12.06.2025</p>
-                <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F0FEED] text-[#26C975] w-fit shrink-0">
-                    <div class="w-1.5 h-1.5 rounded-full bg-[#26C975]"></div>
-                    <p class="text-[13px] font-medium leading-[100%]">Оплачен</p>
+                <div class="w-full h-[0.25px] bg-[#ADADAD] last:hidden"></div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2.5">
+                            <p class="font-semibold">001</p>
+                            <p class="font-semibold text-base">witty-tie</p>
+                        </div>
+                        <p class="font-semibold text-base">13 900</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <p class="text-[#ADADAD]">12.06.2025</p>
+                        <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F7F7F7] text-[#ADADAD] w-fit shrink-0">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#ADADAD]"></div>
+                            <p class="text-[13px] font-medium leading-[100%]">Отменен</p>
+                        </div>
+                    </div>
+                    <p class="text-[#ADADAD]">1 месяц</p>
+                    <div class="flex items-center gap-2.5 justify-end">
+                        <button class="cursor-pointer">
+                        <img src="/images/accounts/list.svg" alt="" class="w-9">
+                        </button>
+                    </div>
                 </div>
-                </div>
-                <div class="flex flex-col w-full">
-                <p class="text-[#ADADAD]">1 месяц</p>
-                <div class="flex items-center gap-2.5 justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
-                    </button>
-                </div>
-                </div>
-            </div>
-            <div class="w-full h-[0.25px] bg-[#ADADAD] last:hidden"></div>
-            <div class="flex flex-col gap-2.5">
-                <div class="flex items-center justify-between">
-                <div class="flex items-center gap-2.5">
-                    <p class="font-semibold">001</p>
-                    <p class="font-semibold text-base">witty-tie</p>
-                </div>
-                <p class="font-semibold text-base">13 900</p>
-                </div>
-                <div class="flex items-center justify-between">
-                <p class="text-[#ADADAD]">12.06.2025</p>
-                <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#FDF1F2] text-[#FF6170] w-fit shrink-0">
-                    <div class="w-1.5 h-1.5 rounded-full bg-[#FF6170]"></div>
-                    <p class="text-[13px] font-medium leading-[100%]">Ожидает оплаты</p>
-                </div>
-                </div>
-                <div class="flex flex-col w-full">
-                <p class="text-[#ADADAD]">1 месяц</p>
-                <div class="flex items-center gap-2.5 justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/payment.svg" alt="" class="w-8">
-                    </button>
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/close.svg" alt="" class="w-8">
-                    </button>
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
-                    </button>
-                </div>
-                </div>
-            </div>
-            <div class="w-full h-[0.25px] bg-[#ADADAD] last:hidden"></div>
-            <div class="flex flex-col gap-2.5">
-                <div class="flex items-center justify-between">
-                <div class="flex items-center gap-2.5">
-                    <p class="font-semibold">001</p>
-                    <p class="font-semibold text-base">witty-tie</p>
-                </div>
-                <p class="font-semibold text-base">13 900</p>
-                </div>
-                <div class="flex items-center justify-between">
-                <p class="text-[#ADADAD]">12.06.2025</p>
-                <div class="flex items-center gap-1 px-3 py-[3px] rounded-full bg-[#F7F7F7] text-[#ADADAD] w-fit shrink-0">
-                    <div class="w-1.5 h-1.5 rounded-full bg-[#ADADAD]"></div>
-                    <p class="text-[13px] font-medium leading-[100%]">Отменен</p>
-                </div>
-                </div>
-                <div class="flex flex-col w-full">
-                <p class="text-[#ADADAD]">1 месяц</p>
-                <div class="flex items-center gap-2.5 justify-end">
-                    <button class="cursor-pointer">
-                    <img src="/images/accounts/list.svg" alt="" class="w-9">
-                    </button>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
     </section>
