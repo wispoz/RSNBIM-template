@@ -120,6 +120,65 @@
                     </div>
                 </div>
             </div>
+            <div class="w-full bg-white py-2.5 md:py-3.5 lg:py-4 px-6 lg:px-7 flex max-lg:flex-col gap-7 lg:gap-10 rounded-[15px]">
+                <div class="flex max-lg:flex-col gap-12 lg:justify-between">
+                    <div class="flex flex-col gap-2.5">
+                        <p class="text-sm font-semibold leading-[100%]">Период оплаты</p>
+                        <div class="flex items-center flex-wrap gap-1.5 md:gap-4 text-xs font-semibold leading-[100%]">
+                            <label class="order-input rounded-full flex items-center justify-center w-[73px] md:w-20 h-6 md:h-7">
+                                <span>1 мес.</span>
+                                <input type="radio" checked name="period" class="sr-only">
+                            </label>
+                            <label class="order-input rounded-full flex items-center justify-center w-[73px] md:w-20 h-6 md:h-7">
+                                <span>3 мес.</span>
+                                <input type="radio" name="period" class="sr-only">
+                            </label>
+                            <label class="order-input rounded-full flex items-center justify-center w-[73px] md:w-20 h-6 md:h-7">
+                                <span>6 мес.</span>
+                                <input type="radio" name="period" class="sr-only">
+                            </label>
+                            <label class="order-input rounded-full flex items-center justify-center w-[73px] md:w-20 h-6 md:h-7">
+                                <span>12 мес.</span>
+                                <input type="radio" name="period" class="sr-only">
+                            </label>
+                            <label class="order-input rounded-full flex items-center justify-center w-[73px] md:w-20 h-6 md:h-7">
+                                <span>24 мес.</span>
+                                <input type="radio" name="period" class="sr-only">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2.5">
+                        <p class="text-sm font-semibold leading-[100%]">Бэкап - резервное копирование</p>
+                        <div class="flex md:items-center gap-1 md:gap-6">
+                            <div class="group relative w-full md:w-[272px]">
+                                <input type="radio" id="backup-14" name="backup" class="sr-only peer">
+                                <label for="backup-14" class="cursor-pointer transition-all duration-500 w-full py-3 px-2.5 md:px-4 rounded-[15px] bg-[#F7F7F7] border border-[#EFEFEF] flex items-center justify-between peer-checked:[background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] peer-checked:border-[#136BFB]">
+                                    <div class="flex items-center gap-4">
+                                        <p class="text-sm font-semibold leading-[100%]">14 дней</p>
+                                        <p class="text-xs leading-[100%]">500 ₽</p>  
+                                    </div>
+                                    <div class="w-[34px] h-[15px] flex items-center bg-[#D9D9D9] px-px rounded-[15px] transition-all duration-500 [.group:has(input:checked)_&]:bg-[#136BFB]">
+                                        <div class="w-[13px] h-[13px] bg-white rounded-full transition-all duration-500 [.group:has(input:checked)_&]:translate-x-[19px]"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="group relative w-full md:w-[272px]">
+                                <input type="radio" id="backup-30" name="backup" class="sr-only peer">
+                                <label for="backup-30" class="cursor-pointer transition-all duration-500 w-full py-3 px-2.5 md:px-4 rounded-[15px] bg-[#F7F7F7] border border-[#EFEFEF] flex items-center justify-between peer-checked:[background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] peer-checked:border-[#136BFB]">
+                                    <div class="flex items-center gap-4">
+                                        <p class="text-sm font-semibold leading-[100%]">30 дней</p>
+                                        <p class="text-xs leading-[100%]">1 000 ₽</p>  
+                                    </div>
+                                    <div class="w-[34px] h-[15px] flex items-center bg-[#D9D9D9] px-px rounded-[15px] transition-all duration-500 [.group:has(input:checked)_&]:bg-[#136BFB]">
+                                        <div class="w-[13px] h-[13px] bg-white rounded-full transition-all duration-500 [.group:has(input:checked)_&]:translate-x-[19px]"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <p class="text-xs leading-[100%] text-[#ADADAD]">Резервное копирование проектов за последние 14/30 дней</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="mt-5 md:mt-9 flex max-md:flex-col items-center md:items-end w-fit lg:ml-auto gap-9 md:gap-[90px]">
             <div class="grid grid-cols-2 gap-x-6 gap-y-2 text-xs text-[#ADADAD] leading-[100%]">
