@@ -122,10 +122,10 @@
                     </div>
                 </div>
             </div>
-            <button class="cursor-pointer rounded-[15px] border border-dashed border-[#136BFB] pt-3 pb-7 flex flex-col gap-1 items-center w-full text-center [background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] h-fit">
+            <a href="/order" class="cursor-pointer rounded-[15px] border border-dashed border-[#136BFB] pt-3 pb-7 flex flex-col gap-1 items-center w-full text-center [background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] h-fit">
                 <img src="/images/index/plus.png" alt="">
                 <span class="text-sm font-semibold leading-[100%]">Создать новый сервер</span>
-            </button>
+            </a>
         </div>
     </section>
 </template>
