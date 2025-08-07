@@ -127,7 +127,7 @@
                         <p class="text-[22px] font-semibold leading-[100%]">Тариф</p>
                     </div>
                     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-3 gap-y-2 md:gap-4">
-                        <label class="group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
                             <input type="radio" name="rate" checked class="sr-only peer">
                             <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                                 <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-2</p>
@@ -145,7 +145,7 @@
                             </div>
                             <p class="text-lg md:text-2xl font-semibold leading-[100%]">7 900 <span class="text-base">₽/мес</span></p>
                         </label>
-                        <label class="group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
                             <input type="radio" name="rate" class="sr-only peer">
                             <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                                 <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-3</p>
@@ -163,7 +163,7 @@
                             </div>
                             <p class="text-lg md:text-2xl font-semibold leading-[100%]">9 900 <span class="text-base">₽/мес</span></p>
                         </label>
-                        <label class="group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
                             <input type="radio" name="rate" class="sr-only peer">
                             <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                                 <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Standart-3</p>
@@ -181,7 +181,7 @@
                             </div>
                             <p class="text-lg md:text-2xl font-semibold leading-[100%]">11 900 <span class="text-base">₽/мес</span></p>
                         </label>
-                        <label class="group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
                             <input type="radio" name="rate" class="sr-only peer">
                             <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                                 <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-3</p>
@@ -199,7 +199,7 @@
                             </div>
                             <p class="text-lg md:text-2xl font-semibold leading-[100%]">13 900 <span class="text-base">₽/мес</span></p>
                         </label>
-                        <label class="group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
                             <input type="radio" name="rate" class="sr-only peer">
                             <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                                 <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-4</p>
