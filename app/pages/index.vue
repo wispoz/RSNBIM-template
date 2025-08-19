@@ -118,14 +118,14 @@
                     <p class="text-sm font-medium leading-[100%]">Ожидает оплаты</p>
                     <div class="relative max-md:flex flex-col max-md:flex-col max-md:gap-1.5">
                         <p class="w-full bg-[#2F81FE] pl-6 py-2 rounded-[24px] text-2xl font-semibold leading-[100%]">21 800 <span class="text-base">₽</span></p>
-                        <button class="px-4 py-3.5 md:py-2.5 rounded-[19px] w-fit bg-[#58A0FA] text-sm font-medium leading-[100%] md:absolute md:top-1/2 md:-translate-y-1/2 md:right-1 max-md:w-full max-md:text-center">Оплатить</button>
+                        <a href="/accounts" class="px-4 py-3.5 md:py-2.5 rounded-[19px] w-fit bg-[#58A0FA] text-sm font-medium leading-[100%] md:absolute md:top-1/2 md:-translate-y-1/2 md:right-1 max-md:w-full max-md:text-center">Оплатить</a>
                     </div>
                 </div>
             </div>
-            <button class="cursor-pointer rounded-[15px] border border-dashed border-[#136BFB] pt-3 pb-7 flex flex-col gap-1 items-center w-full text-center [background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] h-fit">
+            <a href="/order" class="cursor-pointer rounded-[15px] border border-dashed border-[#136BFB] pt-3 pb-7 flex flex-col gap-1 items-center w-full text-center [background:linear-gradient(90deg,#D8E4F9_0%,#EDF2FB_100%)] h-fit">
                 <img src="/images/index/plus.png" alt="">
                 <span class="text-sm font-semibold leading-[100%]">Создать новый сервер</span>
-            </button>
+            </a>
         </div>
     </section>
 </template>

@@ -30,7 +30,12 @@
                         <td class="py-4 px-2">12.06.2025</td>
                         <td class="py-4 px-2">1 000 000</td>
                         <td class="py-4 px-2">12.06.2025</td>
-                        <td class="py-4 px-2">Tunnel file</td>
+                        <td class="py-4 px-2 flex items-center gap-2.5">
+                            <span>Tunnel file</span>
+                            <button class="cursor-pointer">
+                                <img src="/images/detail/download.png" alt="" class="w-4">
+                            </button>
+                        </td>
                         <td class="py-4 px-2">
                             <div class="flex items-center gap-3">
                                 <button class="cursor-pointer">
@@ -48,7 +53,12 @@
                         <td class="py-4 px-2">12.06.2025</td>
                         <td class="py-4 px-2">1 000 000</td>
                         <td class="py-4 px-2">12.06.2025</td>
-                        <td class="py-4 px-2">Tunnel file</td>
+                        <td class="py-4 px-2 flex items-center gap-2.5">
+                            <span>Tunnel file</span>
+                            <button class="cursor-pointer">
+                                <img src="/images/detail/download.png" alt="" class="w-4">
+                            </button>
+                        </td>
                         <td class="py-4 px-2">
                             <div class="flex items-center gap-3">
                                 <button class="cursor-pointer">
@@ -82,7 +92,12 @@
                     <p class="text-[#ADADAD]">12.06.2025</p>
                 </div>
                 <p class="text-[#ADADAD]">Последний коннект 12.06.2025</p>
-                <p class="text-[#ADADAD]">Tunnel file</p>
+                <div class="flex items-center gap-2.5">
+                    <p class="text-[#ADADAD]">Tunnel file</p>
+                    <button class="cursor-pointer">
+                        <img src="/images/detail/download.png" alt="" class="w-4">
+                    </button>
+                </div>
                 <div class="w-full h-[0.5px] bg-[#ADADAD] group-last:hidden"></div>
             </div>
             <div class="flex flex-col gap-2.5 group">
@@ -102,7 +117,12 @@
                     <p class="text-[#ADADAD]">12.06.2025</p>
                 </div>
                 <p class="text-[#ADADAD]">Последний коннект 12.06.2025</p>
-                <p class="text-[#ADADAD]">Tunnel file</p>
+                <div class="flex items-center gap-2.5">
+                    <p class="text-[#ADADAD]">Tunnel file</p>
+                    <button class="cursor-pointer">
+                        <img src="/images/detail/download.png" alt="" class="w-4">
+                    </button>
+                </div>
                 <div class="w-full h-[0.5px] bg-[#ADADAD] group-last:hidden"></div>
             </div>
         </div>

@@ -120,8 +120,106 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full bg-white py-2.5 md:py-3.5 lg:py-4 px-6 lg:px-7 flex max-lg:flex-col gap-7 lg:gap-10 rounded-[15px]">
-                <div class="flex max-lg:flex-col gap-12 lg:justify-between">
+            <div class="w-full bg-white py-2.5 md:py-3.5 lg:py-4 px-6 lg:px-7 flex flex-col gap-5 md:gap-10 rounded-[15px]">
+                <div class="flex flex-col gap-2 md:gap-4">
+                    <div class="flex items-center gap-3 md:gap-5">
+                        <img src="/images/order/icon.svg" alt="">
+                        <p class="text-[22px] font-semibold leading-[100%]">Тариф</p>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-x-3 gap-y-2 md:gap-4">
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                            <input type="radio" name="rate" checked class="sr-only peer">
+                            <div class="flex max-md:flex-col md:items-center gap-px justify-between">
+                                <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-2</p>
+                                <img src="/images/order/1.svg" alt="" class="max-md:order-first w-8 md:w-10">
+                            </div>
+                            <div class="grid grid-cols-2 gap-x-1 gap-y-2 text-xs md:text-sm leading-[100%] w-fit text-[#ADADAD] transition-all duration-500 peer-checked:text-white">
+                                <p class="font-semibold">4</p>
+                                <p>CPU Core</p>
+                                <p class="font-semibold">4 GB</p>
+                                <p>RAM</p>
+                                <p class="font-semibold">10 GB</p>
+                                <p>NVME</p>
+                                <p class="font-semibold">2-3</p>
+                                <p>User</p>
+                            </div>
+                            <p class="text-lg md:text-2xl font-semibold leading-[100%]">7 900 <span class="text-base">₽/мес</span></p>
+                        </label>
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                            <input type="radio" name="rate" class="sr-only peer">
+                            <div class="flex max-md:flex-col md:items-center gap-px justify-between">
+                                <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-3</p>
+                                <img src="/images/order/2.svg" alt="" class="max-md:order-first w-8 md:w-10">
+                            </div>
+                            <div class="grid grid-cols-2 gap-x-1 gap-y-2 text-xs md:text-sm leading-[100%] w-fit text-[#ADADAD] transition-all duration-500 peer-checked:text-white">
+                                <p class="font-semibold">6</p>
+                                <p>CPU Core</p>
+                                <p class="font-semibold">12 GB</p>
+                                <p>RAM</p>
+                                <p class="font-semibold">10 GB</p>
+                                <p>NVME</p>
+                                <p class="font-semibold">2-3</p>
+                                <p>User</p>
+                            </div>
+                            <p class="text-lg md:text-2xl font-semibold leading-[100%]">9 900 <span class="text-base">₽/мес</span></p>
+                        </label>
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                            <input type="radio" name="rate" class="sr-only peer">
+                            <div class="flex max-md:flex-col md:items-center gap-px justify-between">
+                                <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Standart-3</p>
+                                <img src="/images/order/3.svg" alt="" class="max-md:order-first w-8 md:w-10">
+                            </div>
+                            <div class="grid grid-cols-2 gap-x-1 gap-y-2 text-xs md:text-sm leading-[100%] w-fit text-[#ADADAD] transition-all duration-500 peer-checked:text-white">
+                                <p class="font-semibold">8</p>
+                                <p>CPU Core</p>
+                                <p class="font-semibold">16 GB</p>
+                                <p>RAM</p>
+                                <p class="font-semibold">30 GB</p>
+                                <p>NVME</p>
+                                <p class="font-semibold">3-6</p>
+                                <p>User</p>
+                            </div>
+                            <p class="text-lg md:text-2xl font-semibold leading-[100%]">11 900 <span class="text-base">₽/мес</span></p>
+                        </label>
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                            <input type="radio" name="rate" class="sr-only peer">
+                            <div class="flex max-md:flex-col md:items-center gap-px justify-between">
+                                <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-3</p>
+                                <img src="/images/order/4.svg" alt="" class="max-md:order-first w-8 md:w-10">
+                            </div>
+                            <div class="grid grid-cols-2 gap-x-1 gap-y-2 text-xs md:text-sm leading-[100%] w-fit text-[#ADADAD] transition-all duration-500 peer-checked:text-white">
+                                <p class="font-semibold">12</p>
+                                <p>CPU Core</p>
+                                <p class="font-semibold">24 GB</p>
+                                <p>RAM</p>
+                                <p class="font-semibold">60 GB</p>
+                                <p>NVME</p>
+                                <p class="font-semibold">8-12</p>
+                                <p>User</p>
+                            </div>
+                            <p class="text-lg md:text-2xl font-semibold leading-[100%]">13 900 <span class="text-base">₽/мес</span></p>
+                        </label>
+                        <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-2 md:gap-3.5 transition-all duration-500 [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:border-[#136BFB] [&:has(input:checked)]:text-white bg-[#F7F7F7] border-[0.4px] border-[#ADADAD] ">
+                            <input type="radio" name="rate" class="sr-only peer">
+                            <div class="flex max-md:flex-col md:items-center gap-px justify-between">
+                                <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-4</p>
+                                <img src="/images/order/5.svg" alt="" class="max-md:order-first w-8 md:w-10">
+                            </div>
+                            <div class="grid grid-cols-2 gap-x-1 gap-y-2 text-xs md:text-sm leading-[100%] w-fit text-[#ADADAD] transition-all duration-500 peer-checked:text-white">
+                                <p class="font-semibold">16</p>
+                                <p>CPU Core</p>
+                                <p class="font-semibold">32 GB</p>
+                                <p>RAM</p>
+                                <p class="font-semibold">60 GB</p>
+                                <p>NVME</p>
+                                <p class="font-semibold">8-12</p>
+                                <p>User</p>
+                            </div>
+                            <p class="text-lg md:text-2xl font-semibold leading-[100%]">15 900 <span class="text-base">₽/мес</span></p>
+                        </label>
+                    </div>
+                </div>
+                <div class="flex max-xl:flex-col gap-12 xl:justify-between">
                     <div class="flex flex-col gap-2.5">
                         <p class="text-sm font-semibold leading-[100%]">Период оплаты</p>
                         <div class="flex items-center flex-wrap gap-1.5 md:gap-4 text-xs font-semibold leading-[100%]">
