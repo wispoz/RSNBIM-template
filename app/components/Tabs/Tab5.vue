@@ -53,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="max-md:hidden text-sm leading-[100%]">
+                <div class="max-md:hidden text-sm leading-[100%] relative overflow-x-auto">
                     <table class="w-full">
                         <thead>
                             <tr class="border-b-[0.5px] border-[#ADADAD]">
