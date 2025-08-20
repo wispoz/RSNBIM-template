@@ -53,123 +53,146 @@
                     </div>
                 </div>
 
-                <div class="max-md:hidden text-sm leading-[100%] relative overflow-x-auto">
-                    <table class="w-full">
-                        <thead>
-                            <tr class="border-b-[0.5px] border-[#ADADAD]">
-                                <th class="sticky left-0 z-[1] bg-white py-3 px-4 font-normal text-left w-[250px]"></th>
-                                <th class="py-3 px-2 font-normal text-left">10.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">11.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">12.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">13.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">14.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">15.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                                <th class="py-3 px-2 font-normal text-left">16.07.25</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Отработанное время</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                                <td class="py-3 px-2">110</td>
-                            </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Созданных элементов</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                                <td class="py-3 px-2">45</td>
-                            </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Измененных элементов</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                                <td class="py-3 px-2">20</td>
-                            </tr>
-                            <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Удаленных элементов</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                                <td class="py-3 px-2">5</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="max-md:hidden text-sm leading-[100%] relative">
+                    <div class="grid grid-cols-[250px_1fr]">
+                        <div>
+                            <table class="w-full border-collapse">
+                                <thead>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                        <th class="py-3 px-4 font-normal text-left w-[250px]">&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-4 font-semibold w-[250px]">Отработанное время</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-4 font-semibold w-[250px]">Созданных элементов</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-4 font-semibold w-[250px]">Измененных элементов</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-4 font-semibold w-[250px]">Удаленных элементов</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="overflow-x-auto">
+                            <table class="min-w-max border-collapse">
+                                <thead>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD]">
+                                        <th class="py-3 px-2 font-normal text-left">10.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">11.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">12.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">13.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">14.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">15.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                        <th class="py-3 px-2 font-normal text-left">16.07.25</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                        <td class="py-3 px-2">110</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                        <td class="py-3 px-2">45</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                        <td class="py-3 px-2">20</td>
+                                    </tr>
+                                    <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                        <td class="py-3 px-2">5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="md:hidden space-y-3">
