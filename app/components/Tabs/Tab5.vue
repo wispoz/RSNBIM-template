@@ -57,7 +57,7 @@
                     <table class="w-full">
                         <thead>
                             <tr class="border-b-[0.5px] border-[#ADADAD]">
-                                <th class="sticky left-0 z-[1] bg-white py-3 px-2 font-normal text-left w-[250px]"></th>
+                                <th class="sticky left-0 z-[1] bg-white py-3 px-4 font-normal text-left w-[250px]"></th>
                                 <th class="py-3 px-2 font-normal text-left">10.07.25</th>
                                 <th class="py-3 px-2 font-normal text-left">11.07.25</th>
                                 <th class="py-3 px-2 font-normal text-left">12.07.25</th>
@@ -69,7 +69,7 @@
                         </thead>
                         <tbody>
                             <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-2 font-semibold w-[250px]">Отработанное время</td>
+                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Отработанное время</td>
                                 <td class="py-3 px-2">110</td>
                                 <td class="py-3 px-2">110</td>
                                 <td class="py-3 px-2">110</td>
@@ -79,7 +79,7 @@
                                 <td class="py-3 px-2">110</td>
                             </tr>
                             <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-2 font-semibold w-[250px]">Созданных элементов</td>
+                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Созданных элементов</td>
                                 <td class="py-3 px-2">45</td>
                                 <td class="py-3 px-2">45</td>
                                 <td class="py-3 px-2">45</td>
@@ -89,7 +89,7 @@
                                 <td class="py-3 px-2">45</td>
                             </tr>
                             <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-2 font-semibold w-[250px]">Измененных элементов</td>
+                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Измененных элементов</td>
                                 <td class="py-3 px-2">20</td>
                                 <td class="py-3 px-2">20</td>
                                 <td class="py-3 px-2">20</td>
@@ -99,7 +99,7 @@
                                 <td class="py-3 px-2">20</td>
                             </tr>
                             <tr class="border-b-[0.5px] border-[#ADADAD] last:border-none">
-                                <td class="sticky left-0 z-[1] bg-white py-3 px-2 font-semibold w-[250px]">Удаленных элементов</td>
+                                <td class="sticky left-0 z-[1] bg-white py-3 px-4 font-semibold w-[250px]">Удаленных элементов</td>
                                 <td class="py-3 px-2">5</td>
                                 <td class="py-3 px-2">5</td>
                                 <td class="py-3 px-2">5</td>
